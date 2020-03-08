@@ -54,6 +54,8 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * Bölge önerisi bulma yolumuzdaki farklılıktan dolayı hız kazanırız.
 * iki Ağ eğitiriz (ConvNet, Bölge önerisi ağı)
 
+![Screenshot_2020-03-06_15-08-30](https://user-images.githubusercontent.com/54184905/76167992-feaf6280-617b-11ea-91c5-8b733c9eee33.png)
+
 
 # Single Shot Multibox Detecton (SSD)
 
