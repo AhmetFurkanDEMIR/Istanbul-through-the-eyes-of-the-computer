@@ -24,4 +24,21 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * SVM ile sınıflandırma yapılır (Gözetimli öğrenme kullanan makine öğrenmesi)
 * Sınıflar için linear regrasyon (Bir veya birden fazla bağımsız değişken ile başka bir bağımlı değişken arasındaki bağlantıyı moddelemek için kullanılan yöntem.) kullanırız.
 
+* Eğitim aşaması:
+1-) Softmax sınıflandırıcı ile ağ eğitimi (Log loss)
+
+2-) SVM eğitimi (Hinge loss)
+
+3-) Sınırlayıcı eğitimi (least squares)
+
+# Fast R-CNN
+
+* Resmi ConvNet ağından geçirip özellik haritası çıkartırız.
+* Selective Sercah ile 2000 e yakın bölge belirleriz.
+* Artık her bölgeyi CNN den geçirmiyoruz, Buda bize hız kazandırır.
+* Özelliklerde boyut eşitlemesi yaparız. (Rol Pooling)
+* Sınıflandırma yapılır. (Softmax sınıflandırıcı)
+
+
+
 
