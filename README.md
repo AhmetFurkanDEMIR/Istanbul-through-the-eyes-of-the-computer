@@ -15,6 +15,8 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 # Region-Based Conolutional Nerual Network (R-CNN)
 
+![Screenshot_2020-03-06_14-52-28](https://user-images.githubusercontent.com/54184905/76167447-c9087a80-6177-11ea-9db7-9f7d64b63ad8.png)
+
 * Bölge önerisi kullanılır.
 * 2000 e yakın bölge tespit edilir.
 * Bu bölgelerin boyutları eşitlenir ve CNN ağından geçirilir.
