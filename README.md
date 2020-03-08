@@ -33,11 +33,24 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 # Fast R-CNN
 
+![maxresdefault](https://user-images.githubusercontent.com/54184905/76167657-5ef0d500-6179-11ea-898e-b07853fa47cd.jpg)
+
 * Resmi ConvNet ağından geçirip özellik haritası çıkartırız.
 * Selective Sercah ile 2000 e yakın bölge belirleriz.
 * Artık her bölgeyi CNN den geçirmiyoruz, Buda bize hız kazandırır.
 * Özelliklerde boyut eşitlemesi yaparız. (Rol Pooling)
 * Sınıflandırma yapılır. (Softmax sınıflandırıcı)
+
+# Faster R-CNN
+
+
+* Resmi ConvNet ağından geçirip özellik haritası çıkartırız.
+* Ayrı bir bölge önerisi ağı oluştururuz ve bu bölgeleri bu ağda tespit ederiz.
+* Tespit işleminden sonra Fast R-CNN ile aynı işleme devam eder.
+* Bölge önerisi bulma yolumuzdaki farklılıktan dolayı hız kazanırız.
+* iki Ağ eğitiriz (ConvNet, Bölge önerisi ağı)
+
+
 
 
 
