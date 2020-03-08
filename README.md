@@ -71,9 +71,16 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 ![Screenshot_2020-03-06_15-10-49](https://user-images.githubusercontent.com/54184905/76167930-7a5cdf80-617b-11ea-8f8d-e5fb80b6c81a.png)
 
+![Screenshot_2020-03-06_15-14-54](https://user-images.githubusercontent.com/54184905/76168017-5f3e9f80-617c-11ea-8116-47d8b2694f60.png)
+
 * Hız önemli ise SSD, isabet önemli ise Faster R-CNN 'i öneririm
 
 
+# Mask R-CNN
 
+* Amaç resim içindeki nesneyi tespit edip tüm pixellerine ulaşmak.
+* Temelinde Faster R-CNN vardır.
+* Mask R-CNN de maskelemek için farklı bir dal vardır.
+* Maske olan pixeller 1 ile maske olmayan pixeller 0 ile işaretlenir ve bir matris elde ederiz.
 
 
