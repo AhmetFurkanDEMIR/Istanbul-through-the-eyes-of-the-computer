@@ -63,6 +63,10 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * 3x3 filitre ile az miktarda dikdörtgensel sınırlar tespit ederiz. Bu işlemde hem sınırlar hemde sınıflandırmalar belli olur.
 * Eğitim esnasında doğru olan sınırlar ve tahmin olan sınırlar karşılaştırılır, en iyi tahmini yapan ve 0.5 oranının üstündeki dikdörtgenleri pozitif olarak işaretler
 
+![Screenshot_2020-03-06_15-10-49](https://user-images.githubusercontent.com/54184905/76167930-7a5cdf80-617b-11ea-8f8d-e5fb80b6c81a.png)
+
+* Hız önemli ise SSD, isabet önemli ise Faster R-CNN 'i öneririm
+
 
 
 
