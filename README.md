@@ -13,6 +13,7 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 ![Screenshot_2020-03-06_14-43-14](https://user-images.githubusercontent.com/54184905/76167342-ee48b900-6176-11ea-9f99-904be5219146.png)
 
+
 # Region-Based Conolutional Nerual Network (R-CNN)
 
 ![Screenshot_2020-03-06_14-52-28](https://user-images.githubusercontent.com/54184905/76167447-c9087a80-6177-11ea-9db7-9f7d64b63ad8.png)
@@ -31,6 +32,7 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 3-) Sınırlayıcı eğitimi (least squares)
 
+
 # Fast R-CNN
 
 ![maxresdefault](https://user-images.githubusercontent.com/54184905/76167657-5ef0d500-6179-11ea-898e-b07853fa47cd.jpg)
@@ -41,8 +43,10 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * Özelliklerde boyut eşitlemesi yaparız. (Rol Pooling)
 * Sınıflandırma yapılır. (Softmax sınıflandırıcı)
 
+
 # Faster R-CNN
 
+![Screenshot_2020-03-06_15-05-47](https://user-images.githubusercontent.com/54184905/76167779-5947bf00-617a-11ea-8ce8-4d6e02877288.png)
 
 * Resmi ConvNet ağından geçirip özellik haritası çıkartırız.
 * Ayrı bir bölge önerisi ağı oluştururuz ve bu bölgeleri bu ağda tespit ederiz.
@@ -50,6 +54,14 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * Bölge önerisi bulma yolumuzdaki farklılıktan dolayı hız kazanırız.
 * iki Ağ eğitiriz (ConvNet, Bölge önerisi ağı)
 
+
+# Single Shot Multibox Detecton (SSD)
+
+* Tek seferde nesne tanıma yapar
+* Resim CNN den geçirilir.
+* Farklı boyutlarda özellik haritaları çıkartılır.
+* 3x3 filitre ile az miktarda dikdörtgensel sınırlar tespit ederiz. Bu işlemde hem sınırlar hemde sınıflandırmalar belli olur.
+* Eğitim esnasında doğru olan sınırlar ve tahmin olan sınırlar karşılaştırılır, en iyi tahmini yapan ve 0.5 oranının üstündeki dikdörtgenleri pozitif olarak işaretler
 
 
 
