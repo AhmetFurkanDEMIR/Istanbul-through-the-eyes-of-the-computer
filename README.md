@@ -85,4 +85,5 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 
 ![Screenshot_2020-03-06_15-19-18](https://user-images.githubusercontent.com/54184905/76168074-f3a90200-617c-11ea-91b7-8519e43a06a5.png)
 
+![Screenshot_2020-03-06_15-20-34](https://user-images.githubusercontent.com/54184905/76168090-3a96f780-617d-11ea-8ddd-ab6315560456.png)
 
