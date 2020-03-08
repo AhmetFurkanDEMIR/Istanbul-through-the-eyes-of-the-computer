@@ -1,0 +1,5 @@
+
+./bin/protoc object_detection/protos/*.proto --python_out=.
+
+tf.compat.v1.GraphDef()   # -> instead of tf.GraphDef()
+tf.compat.v2.io.gfile.GFile()   # -> instead of tf.gfile.GFile()
