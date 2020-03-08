@@ -83,4 +83,6 @@ Bölge önerisi yapılırken yapay zeka kullanılmaz, geleneksel resim işleme a
 * Mask R-CNN de maskelemek için farklı bir dal vardır.
 * Maske olan pixeller 1 ile maske olmayan pixeller 0 ile işaretlenir ve bir matris elde ederiz.
 
+![Screenshot_2020-03-06_15-19-18](https://user-images.githubusercontent.com/54184905/76168074-f3a90200-617c-11ea-91b7-8519e43a06a5.png)
+
 
