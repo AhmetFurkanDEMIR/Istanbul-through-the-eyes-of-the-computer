@@ -1,3 +1,7 @@
+![licence](https://img.shields.io/badge/Tensorflow-V1.15-yellow)
+![licence](https://img.shields.io/badge/Ahmet%20Furkan-DEM%C4%B0R-blue)
+![licence](https://img.shields.io/badge/demir-ai-blueviolet)
+
 # Nesne Tanıma - Bölge önerisi
 
 ![Screenshot_2020-03-06_14-37-22](https://user-images.githubusercontent.com/54184905/76167234-3fa47880-6176-11ea-8146-fbdbc7fc8b83.png)
