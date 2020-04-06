@@ -1,4 +1,5 @@
 ![licence](https://img.shields.io/badge/Tensorflow-V1.15-yellow)
+
 ![licence](https://img.shields.io/badge/Ahmet%20Furkan-DEM%C4%B0R-blue)
 ![licence](https://img.shields.io/badge/demir-ai-blueviolet)
 
